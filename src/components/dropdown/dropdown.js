@@ -1,8 +1,8 @@
 import "./dropdown.css";
 
-//add listeners for all dropdowns
 const dropdowns = document.querySelectorAll(".dropdown");
 
+//add listeners for all dropdowns
 dropdowns.forEach((dropdown) =>
   dropdown.addEventListener("click", (e) => handleDropDownClick(e, dropdown))
 );
