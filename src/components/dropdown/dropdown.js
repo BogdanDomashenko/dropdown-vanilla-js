@@ -2,13 +2,13 @@ import "./dropdown.css";
 
 const dropdowns = document.querySelectorAll(".dropdown");
 
-//add listeners for all dropdowns
+//add listeners to all dropdowns
 dropdowns.forEach((dropdown) =>
-  dropdown.addEventListener("click", (e) => handleDropDownClick(e, dropdown))
+  dropdown.addEventListener("click", (e) => handleDropdownClick(e, dropdown))
 );
 
-function handleDropDownClick(e, dropdown) {
-  //if click on dropdown header toggle
+function handleDropdownClick(e, dropdown) {
+  //toggle on dropdown header click
   if (e.target.closest(".dropdown__header")) {
     toggleDropdown(dropdown);
   }
