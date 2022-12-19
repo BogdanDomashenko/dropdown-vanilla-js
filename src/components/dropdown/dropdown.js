@@ -13,7 +13,7 @@ function handleDropDownClick(e, dropdown) {
     toggleDropdown(dropdown);
   }
 
-  //if click on option set new selected
+  //set new selected on option click
   if (e.target.closest(".dropdown__options")) {
     const selectedOption = dropdown.querySelector(".dropdown__selected-option");
 
