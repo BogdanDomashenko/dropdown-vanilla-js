@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="container">
+        <div class="status">
+          <span>Status</span>
+          <div class="dropdown">
+            <div class="dropdown__header">
+              <div class="dropdown__selected-option">
+                <i class="dropdown__icon fa-solid fa-file-pen"></i>
+                <span class="dropdown__text">Draft</span>
+              </div>
+              <i
+                class="dropdown__chevron dropdown__icon fa-solid fa-chevron-down"
+              ></i>
+            </div>
+            <ul class="dropdown__options">
+              <li class="dropdown__option">
+                <i class="dropdown__icon fa-solid fa-file-pen"></i>
+                <span class="dropdown__text">Draft</span>
+              </li>
+              <li class="dropdown__option">
+                <i class="dropdown__icon fa-solid fa-paper-plane"></i>
+                <span class="dropdown__text">Submitted</span>
+              </li>
+              <li class="dropdown__option">
+                <i class="dropdown__icon fa-solid fa-circle-check"></i>
+                <span class="dropdown__text"> Confirmed</span>
+              </li>
+              <li class="dropdown__option">
+                <i class="dropdown__icon fa-regular fa-face-smile"></i>
+                <span class="dropdown__text">Closed</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/37922c53b1.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
