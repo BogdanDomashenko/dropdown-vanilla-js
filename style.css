@@ -21,6 +21,11 @@ body {
   gap: 5px;
 }
 
+.status__title {
+  font-size: 14px;
+  font-weight: 500;
+}
+
 @keyframes fadeInDown {
   from {
     transform: translate3d(0, -30px, 0);
